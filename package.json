@@ -8,10 +8,6 @@
     "test": "bun test --config=./bunfig.dev.toml",
     "build": "bun build ${fileName} --config=./bunfig.toml --format=esm --target=bun --outdir=dist"
   },
-  "dependencies": {
-    "@swc/core": "latest",
-    "@tanstack/config": "latest"
-  },
   "devDependencies": {
     "@types/bun": "^1.0.8",
     "@types/node": "^20.11.22",
