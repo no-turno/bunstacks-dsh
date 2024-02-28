@@ -1,0 +1,4 @@
+[test]
+preload = ['./__test__/fixtures/setup.js']
+root = "./__test__"
+smol = true

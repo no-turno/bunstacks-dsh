@@ -1,0 +1,11 @@
+telemetry = false
+logLevel = "info"
+
+[define]
+"process.env.NODE_ENV" = "'development'"
+
+[loader]
+".ts" = "ts"
+".js" = "js"
+".cjs" = "js"
+".json" = "json"

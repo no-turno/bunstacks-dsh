@@ -1,0 +1,21 @@
+{
+  "name": "bunstacks-dsh",
+  "module": "src/lib/dsh.ts",
+  "type": "module",
+  "main": "src/lib/dsh.ts",
+  "version": "beta-0.0.1",
+  "scripts": {
+    "test": "bun test --config=./bunfig.dev.toml",
+    "build": "bun build ${fileName} --config=./bunfig.toml --format=esm --target=bun --outdir=dist"
+  },
+  "dependencies": {
+    "@swc/core": "latest",
+    "@tanstack/config": "latest"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.0.8",
+    "@types/node": "^20.11.22",
+    "@types/systemjs": "^6.13.5",
+    "typescript": "^5.3.3"
+  }
+}
